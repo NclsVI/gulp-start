@@ -19,29 +19,44 @@ $global-font-icon: 'icon-font';
    /* Some common icon stuff */
  }
 
- &.icon--dribbble-logo {
+ &.icon--cancel {
    &:before {
-     content: $icon-dribbble-logo;
+     content: $icon-cancel;
    }
  }
- &.icon--facebook-logo {
+ &.icon--dashboard {
    &:before {
-     content: $icon-facebook-logo;
+     content: $icon-dashboard;
    }
  }
- &.icon--google-plus-symbol {
+ &.icon--desktop-monitor {
    &:before {
-     content: $icon-google-plus-symbol;
+     content: $icon-desktop-monitor;
    }
  }
- &.icon--twitter-logo-silhouette {
+ &.icon--expand-button {
    &:before {
-     content: $icon-twitter-logo-silhouette;
+     content: $icon-expand-button;
    }
  }
- &.icon--vimeo-logo {
+ &.icon--menu-icon {
    &:before {
-     content: $icon-vimeo-logo;
+     content: $icon-menu-icon;
+   }
+ }
+ &.icon--open-folder {
+   &:before {
+     content: $icon-open-folder;
+   }
+ }
+ &.icon--refresh {
+   &:before {
+     content: $icon-refresh;
+   }
+ }
+ &.icon--wechat {
+   &:before {
+     content: $icon-wechat;
    }
  }
 

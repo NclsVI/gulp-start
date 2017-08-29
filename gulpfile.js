@@ -1,4 +1,4 @@
-var gulp         = require('gulp'),
+var  gulp         = require('gulp'),
      postcss      = require('gulp-postcss'),
      sass         = require('gulp-sass'),
      autoprefixer = require('autoprefixer'),
@@ -65,5 +65,6 @@ var pug = require('gulp-pug');
  gulp.task('default', ['serve'], function() {
      gulp.watch(['assets/scss/**/*.scss'], ['build:sass']);  
      gulp.watch('./**/*.html').on('change', browser.reload);
+     gulp.watch('./js/*.js').on('change', browser.reload);
      gulp.watch(['views/*.pug'], ['views']);
  });
